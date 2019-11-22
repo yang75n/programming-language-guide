@@ -1,0 +1,9 @@
+# ignore file
+
+bin/
+gen/
+.settings/
+.idea/
+build/
+*.iml
+target/
