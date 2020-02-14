@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qiwen/github/programming-language-guide/C++/12_Build/cmake/demo2/main.cpp
+stdio.h
+-
+stdlib.h
+-
+

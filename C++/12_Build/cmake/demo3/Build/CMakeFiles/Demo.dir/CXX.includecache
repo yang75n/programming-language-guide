@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/qiwen/github/programming-language-guide/C++/12_Build/cmake/demo3/main.cpp
+stdio.h
+-
+stdlib.h
+-
+mathfunctions.h
+/home/qiwen/github/programming-language-guide/C++/12_Build/cmake/demo3/mathfunctions.h
+
+/home/qiwen/github/programming-language-guide/C++/12_Build/cmake/demo3/mathfunctions.h
+
