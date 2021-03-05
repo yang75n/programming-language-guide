@@ -1,0 +1,29 @@
+<html>
+<body>
+<audio id="s" controls="controls">
+  <source src="https://www.w3cschool.cn/statics/demosource/horse.ogg">
+</audio>
+<hr>
+<audio id="myaudio" src="https://www.w3cschool.cn/statics/demosource/horse.ogg"  controls="controls">
+    不支持audio标签
+</audio>
+
+<hr>
+
+<button onclick="voicePaly()">启动</button>
+<button onclick="voiceClose()">停止</button>
+
+<script type="text/javascript">
+    var audio;
+    function voicePaly () {
+        audio = "https://www.w3cschool.cn/statics/demosource/horse.ogg";
+        audio = new Audio(audio);
+        audio.play();
+    }
+    function voiceClose () {
+        audio.pause();
+    }
+</script>
+
+<body>
+</html>
